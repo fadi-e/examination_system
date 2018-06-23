@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+.main-container{
+	width: 100%;
+	height: auto;
+}
+header, footer{
+	width: 100%;
+	height: 120px;
+	background-color:#00022A;
+	text-align: center;
+	color: white;
+}
+#msgbox{
+	width: 100%;
+	height: auto;
+	background-color: white;
+}
+h4{
+	padding-top: 60px;
+	font-size: 25px;
+}
+nav{
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	display: block;
+
+}
+ul{
+	display: table;
+	width: 100%;
+
+}
+/*li{
+	display: table-cell;
+	text-align: center;
+	width: 10%;
+	margin: auto;
+	padding: 1em;
+}*/
+a{
+	text-decoration: none;
+	
+}
+section{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	align-items: center;
+	text-align: center;
+}
+#logout_button{
+	margin: 5px;
+	float: right;
+	background-color: #00022A;
+	color: white;
+	width: 150px;
+	height: 25px;
+}
+#add_user, #add_book, #new_test, #modify_user, #add_admin, #test_results,#student_info, .select{
+	margin-top: 5px;
+	background-color: #00022A;
+	color: white;
+	width: 150px;
+	height: 25px;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+	background-color:#00022A;
+	color: white;
+}
+.show_more{
+	margin: 5px;
+}
+h6{
+	color: white;
+	margin-top: 15px;
+}
+
+
+#section_one{ display: block;}
+#section_two{ display: none;}
+#section_three{ display: none;}
+#section_four{ display: none;}
+#section_five{ display: none;}
+#section_six{ display: none;}
+
+
+.overlay {
+    background: #e9e9e9;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.5;
+}
+#loader {
+    height: 120px;
+    left: 50%;
+    margin: -75px 0 0 -75px;
+    position: absolute;
+    top: 50%;
+    width: 120px;
+    z-index: 1;
+}
+.sides{
+	width: 100%;
+	height: auto;
+}
+.leftside{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+.rightside{
+	width: 30%;
+	height: auto;
+	float: right;
+}
+ .media
+    {
+        /*box-shadow:0px 0px 4px -2px #000;*/
+margin: 20px 0;
+        padding:30px;
+       
+    }
+    .dp
+    {
+        border:10px solid #eee;
+        transition: all 0.2s ease-in-out;
+    }
+    .dp:hover
+    {
+        border:2px solid #eee;
+        transform:rotate(360deg);
+        -ms-transform:rotate(360deg);  
+        -webkit-transform:rotate(360deg);  
+        /*-webkit-font-smoothing:antialiased;*/
+    }
